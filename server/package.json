@@ -4,10 +4,11 @@
   "description": "LeadDesk Mini Backend",
   "type": "module",
   "main": "server.js",
-  "scripts": {
-    "dev": "nodemon server.js",
-    "start": "node server.js"
-  },
+ "scripts": {
+  "dev": "nodemon server.js",
+  "start": "node server.js",
+  "postinstall": "prisma generate"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
